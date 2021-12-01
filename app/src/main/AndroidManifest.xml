@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individual">
         <activity
+            android:name=".CategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".CardActivity"
             android:exported="true" />
         <activity
