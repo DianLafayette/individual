@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individual">
         <activity
-            android:name=".CategoryActivity"
+            android:name=".thanksActivity"
             android:exported="true" />
         <activity
             android:name=".CardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".promoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainmenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CategoryActivity"
             android:exported="true" />
         <activity
             android:name=".RegActivity"
