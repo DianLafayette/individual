@@ -48,6 +48,7 @@
             android:layout_height="70dp"
             android:background="@color/violet"
             android:text="@string/rus"
+            android:id="@+id/russian"
             android:fontFamily="@font/montserrat_bold"
             android:textColor="@color/white"
             android:textSize="20dp"
@@ -57,7 +58,7 @@
             android:layout_width="300dp"
             android:layout_height="70dp"
             android:background="@color/reddy"
-            android:text="@string/kyrg"
+            android:text="@string/kyr"
             android:fontFamily="@font/montserrat_bold"
             android:textColor="@color/white"
             android:textSize="20dp"/>

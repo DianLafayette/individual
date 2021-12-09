@@ -20,7 +20,7 @@
         <ImageView
             android:layout_width="320dp"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/reg_tablo" />
+            app:srcCompat="@drawable/reg_tablo"/>
 
         <LinearLayout
             android:id="@+id/regg"
@@ -175,6 +175,7 @@
 
         <Button
             android:layout_width="140dp"
+            android:id="@+id/end_reg"
             android:layout_height="80dp"
             android:layout_below="@+id/reg_ed_layout"
             android:layout_marginStart="90dp"
