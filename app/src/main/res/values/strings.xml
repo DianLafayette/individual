@@ -10,5 +10,18 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="rus">Русский</string>
-    <string name="kyrg">Кыргызча</string>
+    <string name="kyr">Кыргызча</string>
+    <string name="lor_text">Для более эффективной работы приложения просим вас зарегестрироваться или войти в существующий аккаунт :)</string>
+    <string name="ent">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="reg">Регистрация</string>
+    <string name="create_acc">Создайте свой аккаунт</string>
+    <string name="enter_mail">Введите почту*</string>
+    <string name="password">Придумайте пароль*</string>
+    <string name="password2">Повторите пароль*</string>
+    <string name="phonenum">Ваш номер телефона*</string>
+    <string name="nickorname">Ник или Имя*</string>
+    <string name="end_reg">Завершить регистрацию</string>
+    <string name="have_acc">У Вас уже есть аккаунт?</string>
+    <string name="Entrr">Войдите!</string>
 </resources>

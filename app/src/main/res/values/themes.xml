@@ -15,8 +15,12 @@
     </style>
 
     <color name="violet">"#4D3E7F"</color>
+    <color name="dark_violet">"#342762"</color>
     <color name="reddy">"#E21F25"</color>
     <color name="lavand">"#C2B0FF"</color>
+    <color name="dark_red">"#961115"</color>
+    <color name="light_lav">"#CFC9E4"</color>
+
 
 
 
@@ -46,6 +50,11 @@
 
     <style name="b25">
         <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">25sp</item>
+
+    </style>
+    <style name="m25">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
         <item name="android:textSize">25sp</item>
 
     </style>
