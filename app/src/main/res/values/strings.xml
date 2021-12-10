@@ -33,4 +33,8 @@
     <string name="ent_in">Войти</string>
     <string name="hevent_acc">У Вас еще нет аккаунта?</string>
     <string name="sign_in">Зарегистрируйтесь!</string>
+    <string name="q_a"><![CDATA[Q&A]]></string>
+    <string name="online_shopping">Онлайн покупки</string>
+    <string name="product_category">Категории продуктов</string>
+    <string name="search"> Поиск</string>
 </resources>
