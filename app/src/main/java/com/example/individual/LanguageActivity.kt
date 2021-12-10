@@ -16,4 +16,4 @@ class LanguageActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.russian.setOnClickListener {
-            startActivity(Intent(this,RegActivity::class.java))}}}
+            startActivity(Intent(this,LorRActivity::class.java))}}}

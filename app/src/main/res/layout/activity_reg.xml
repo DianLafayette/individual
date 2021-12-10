@@ -20,7 +20,7 @@
         <ImageView
             android:layout_width="320dp"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/reg_tablo"/>
+            app:srcCompat="@drawable/component_29" />
 
         <LinearLayout
             android:id="@+id/regg"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/regg"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:orientation="vertical">
 
 
@@ -174,15 +174,16 @@
 
 
         <Button
-            android:layout_width="140dp"
             android:id="@+id/end_reg"
+            android:layout_width="140dp"
             android:layout_height="80dp"
             android:layout_below="@+id/reg_ed_layout"
             android:layout_marginStart="90dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:background="@color/dark_violet"
             android:fontFamily="@font/montserrat_bold"
-            android:text="@string/end_reg" />
+            android:text="@string/end_reg"
+            android:textColor="@color/white" />
 
     </RelativeLayout>
 

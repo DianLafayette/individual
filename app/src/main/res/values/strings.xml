@@ -24,4 +24,13 @@
     <string name="end_reg">Завершить регистрацию</string>
     <string name="have_acc">У Вас уже есть аккаунт?</string>
     <string name="Entrr">Войдите!</string>
+    <string name="enter">Вход</string>
+    <string name="in_acc">В существующий аккаунт</string>
+    <string name="or">или</string>
+    <string name="lost_maybe">Забыли свою почту или пароль?</string>
+    <string name="pass_pweas">Пароль</string>
+    <string name="remeber_me">Запомнить меня</string>
+    <string name="ent_in">Войти</string>
+    <string name="hevent_acc">У Вас еще нет аккаунта?</string>
+    <string name="sign_in">Зарегистрируйтесь!</string>
 </resources>

@@ -29,9 +29,9 @@
             android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat_medium"
             android:gravity="center"
-            android:text="@string/lorr_text"
+            android:text="@string/lor_text"
             android:textColor="@color/violet"
-            android:textSize="15dp"/>
+            android:textSize="15dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -76,16 +76,18 @@
             <Button
                 android:layout_width="300dp"
                 android:layout_height="70dp"
+                android:id="@+id/go_login"
                 android:layout_marginBottom="50dp"
                 android:background="@color/reddy"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="@string/vhod"
+                android:text="@string/ent"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
             <Button
                 android:layout_width="300dp"
                 android:layout_height="70dp"
+                android:id="@+id/register"
                 android:background="@color/reddy"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="@string/register"
