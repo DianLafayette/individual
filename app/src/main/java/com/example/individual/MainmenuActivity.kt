@@ -3,10 +3,7 @@ package com.example.individual
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.individual.databinding.ActivityCardBinding
-import com.example.individual.databinding.ActivityLorrBinding
-import com.example.individual.databinding.ActivityMainmenuBinding
-import com.example.individual.databinding.ActivityPromoBinding
+import com.example.individual.databinding.*
 
 class MainmenuActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainmenuBinding
@@ -17,6 +14,10 @@ class MainmenuActivity : AppCompatActivity() {
 
         binding = ActivityMainmenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.editText.setOnClickListener {
+            startActivity(Intent(this, ActivityCategoryBinding::class.java))
+        }
 
         binding.goMainmenu.setOnClickListener {
             startActivity(Intent(this, MainmenuActivity::class.java))

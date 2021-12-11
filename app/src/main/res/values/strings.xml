@@ -37,4 +37,22 @@
     <string name="online_shopping">Онлайн покупки</string>
     <string name="product_category">Категории продуктов</string>
     <string name="search"> Поиск</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">todo2</string>
+    <string name="todo3">TODO3</string>
+    <string name="todo4">TODO4</string>
+    <string name="todo5">todo5</string>
+    <string name="todo6">TODO6</string>
+    <string name="todo7">todo7</string>
+    <string name="todo8">TODO8</string>
+    <string name="todo9">TODO9</string>
+    <string name="todo10">TODO10</string>
+    <string name="todo10">TODO10</string>
+    <string name="todo11">TODO11</string>
+    <string name="pro_mo">Акции</string>
+    <string name="more_info">Вы можете прочитать более подробную информацию об акции нажав на нее</string>
+    <string name="bonus">Бонусная карта</string>
+    <string name="points">Для накопления и списания бонусов необходимо показать эту страницу кассиру</string>
+    <string name="thanks">Спасибо за покупку! :)</string>
+    <string name="categories">Категории продуктов</string>
 </resources>

@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball3" />
+        app:srcCompat="@drawable/ball3"
+        android:contentDescription="@string/todo3" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -25,14 +26,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ball2"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/todo4" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ball" />
+        app:srcCompat="@drawable/ball"
+        android:contentDescription="@string/todo5" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,7 +54,7 @@
             android:id="@+id/russian"
             android:fontFamily="@font/montserrat_bold"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_marginBottom="50dp"
             />
         <Button
@@ -61,7 +64,7 @@
             android:text="@string/kyr"
             android:fontFamily="@font/montserrat_bold"
             android:textColor="@color/white"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

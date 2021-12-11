@@ -19,7 +19,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/tabl" />
+            app:srcCompat="@drawable/tabl"
+            android:contentDescription="@string/todo2" />
 
         <TextView
             android:layout_width="260dp"
@@ -31,7 +32,7 @@
             android:gravity="center"
             android:text="@string/lor_text"
             android:textColor="@color/violet"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -61,7 +62,7 @@
             <Button
                 android:layout_width="300dp"
                 android:layout_height="70dp"
-                android:background="@color/dark_red"/>/>
+                android:background="@color/dark_red"/>
         </LinearLayout>
 
         <LinearLayout
@@ -82,7 +83,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="@string/ent"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <Button
                 android:layout_width="300dp"
@@ -92,7 +93,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="@string/register"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
         </LinearLayout>
 
 
@@ -106,5 +107,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/f2"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
