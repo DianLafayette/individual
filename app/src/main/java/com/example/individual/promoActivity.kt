@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.individual.databinding.ActivityCardBinding
-import com.example.individual.databinding.ActivityCategoryBinding
-import com.example.individual.databinding.ActivityMainmenuBinding
 import com.example.individual.databinding.ActivityPromoBinding
 
 class promoActivity : AppCompatActivity() {
@@ -20,7 +18,7 @@ class promoActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.goMainmenu.setOnClickListener {
-            startActivity(Intent(this, MainmenuActivity::class.java))
+            startActivity(Intent(this, MainMenuActivity::class.java))
         }
 
         binding.goPromo.setOnClickListener {

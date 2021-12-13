@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.individual.databinding.ActivityLoginBinding
-import com.example.individual.databinding.ActivityRegBinding
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding:ActivityLoginBinding
@@ -16,4 +15,4 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.logIn.setOnClickListener {
-            startActivity(Intent(this,MainmenuActivity::class.java))}}}
+            startActivity(Intent(this,MainMenuActivity::class.java))}}}

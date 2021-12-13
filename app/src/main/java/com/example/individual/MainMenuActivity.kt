@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.individual.databinding.*
 
-class MainmenuActivity : AppCompatActivity() {
+class MainMenuActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainmenuBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +20,7 @@ class MainmenuActivity : AppCompatActivity() {
         }
 
         binding.goMainmenu.setOnClickListener {
-            startActivity(Intent(this, MainmenuActivity::class.java))
+            startActivity(Intent(this, MainMenuActivity::class.java))
         }
 
         binding.goPromo.setOnClickListener {

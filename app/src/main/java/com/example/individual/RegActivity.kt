@@ -3,7 +3,6 @@ package com.example.individual
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.individual.databinding.ActivityLanguageBinding
 import com.example.individual.databinding.ActivityRegBinding
 
 class RegActivity : AppCompatActivity() {
@@ -17,4 +16,4 @@ class RegActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.endReg.setOnClickListener {
-            startActivity(Intent(this,MainmenuActivity::class.java))}}}
+            startActivity(Intent(this,MainMenuActivity::class.java))}}}

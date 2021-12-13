@@ -3,7 +3,6 @@ package com.example.individual
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.individual.databinding.ActivityLorrBinding
 import com.example.individual.databinding.ActivityThanksBinding
 
 class thanksActivity : AppCompatActivity() {
@@ -17,7 +16,7 @@ class thanksActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.close.setOnClickListener {
-            startActivity(Intent(this,MainmenuActivity::class.java))}
+            startActivity(Intent(this,MainMenuActivity::class.java))}
 
     }
 }

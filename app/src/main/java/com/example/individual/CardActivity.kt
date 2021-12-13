@@ -17,7 +17,7 @@ class CardActivity : AppCompatActivity() {
 
 
         binding.goMainmenu.setOnClickListener {
-            startActivity(Intent(this, MainmenuActivity::class.java))
+            startActivity(Intent(this, MainMenuActivity::class.java))
         }
 
         binding.goPromo.setOnClickListener {
